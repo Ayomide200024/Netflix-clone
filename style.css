@@ -1,0 +1,588 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color:black;
+}
+h2{
+    font-weight: bold;
+}
+
+.top_section{
+ background: radial-gradient(transparent, black), url("images/back.jpg");
+ padding-bottom: 80px;
+  
+}
+.cover img{
+    position: relative;
+}
+.cover{
+    position:absolute;
+    width:100%;
+    height: 100%;
+    backgroun: rgba(0,0,0, .5)t;
+}
+.inner_top{
+    width: 100%;
+    z-index: 999;
+    height: 100%;
+}
+
+.logo{
+    display: flex;
+    /* width: 95%; */
+    margin: auto;
+    justify-content: space-between;
+    
+   
+}
+.logo img{
+    height: 80px;
+    width: 120px;
+    margin-top: -6px;
+    
+}
+.logo a{
+    background-color: red;
+    height:30px;
+    vertical-align: middle;
+    margin: 20px;
+    padding-bottom: 5px;
+    padding-top: 0;
+    color: white;
+}
+button.btn:hover{
+    background-color: red;
+    color: white;
+}
+.note{
+    width: 90%;
+    margin: auto;
+
+}
+ h1,h2, p{
+    color: white;
+    text-align: center;
+}
+.note h1{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.note p{
+    width: 80%;
+    margin:auto;
+    font-size: 18px;
+    font-weight: 490;
+    text-align: center;
+}
+p.watch{
+    margin-bottom: 20px;
+}
+p.ready{
+    width: 90%;
+    margin-bottom: 10px;
+}
+.mail input{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding:.8em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+}
+.mail input{
+    margin-bottom: 10px;
+}
+button.started{
+    width: 130px;
+    margin: auto;
+    border-radius: 2px;
+    background-color:red;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+hr{
+    margin:0;
+    height: 7px;
+    padding: 0;
+    border: none;
+    background-color:#333;
+    color:#333;
+    opacity: 1;
+}
+.tv{
+    text-align:center;
+}
+.enjoy{
+    background:black;
+    padding: 50px 0 0px 0;
+}
+.enjoy_container{
+    display: flex;
+    flex-direction:column;
+}
+.tv p{
+    width: 80%;
+    margin:auto;
+}
+.television{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.television img{
+    display: block;
+    margin: auto;
+    width:80%;
+    /* height:400px; */
+}
+.download{
+    background: black;
+    padding: 50px 0 0px 0;
+}
+.download_container{
+    display: flex;
+    flex-direction: column;
+}
+.offline h2{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.offline p{
+    width:90%;
+    margin: auto;
+}
+.everywhere{
+    background: black;
+    padding: 50px 0 50px 0;
+}
+.everywhere h2{
+    margin-bottom: 10px;
+}
+.everywhere p{
+    width:85%;
+    margin: auto;
+}
+.create{
+    background: black;
+    padding: 50px 0 50px 0;
+}
+.create-container{
+    display: flex;
+    flex-direction: column;
+}
+.profile h2{
+    margin-bottom: 10px;
+}
+.profile p{
+    width: 85%;
+    margin: auto;
+    margin-bottom:20px;
+}
+.kids{
+    text-align: center;
+}
+.kids img{
+    width: 90%;
+}
+.faq{
+    background: black;
+    width: 100%;
+    padding: 50px 0 50px 0;
+
+}
+.quest h2{
+    margin: auto;
+    margin-bottom: 25px;
+    width: 80%;
+    font-weight: bold;
+}
+.net{
+    background:#333;
+    margin-bottom: 5px;
+}
+.is p{
+    text-align: unset;
+    margin-bottom:0;
+    padding-left: 5%;
+    font-weight: 550;
+}
+.is{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: .9em .5em;
+    margin-bottom: 8px;
+    position:relative;
+    border-bottom:1px solid black;
+}
+i{
+    color:white;
+}
+.icons{
+    padding-top: 5px;
+}
+.fa-plus{
+    position: absolute;
+    /* left: 0; */
+    right: 8%;
+    height:10px;
+    width: 10px;
+    transform-origin: center;
+    transform-style: preserve-3D;
+    transition: .05s ease;
+    
+}
+.net p.word{
+    text-align: left;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.net p.wrd{
+    text-align: left;
+    width: 85%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+.active{
+    display:block;
+}
+.fa-solid.active{
+    transform:rotateZ(45deg);
+}
+
+.enter_email{
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.footer_wrapper{
+    width: 90%;
+    padding: 50px 0 30px 0;
+    margin: auto;
+}
+ul.footer-list{
+    list-style: none;
+    width: 100%;
+   
+ 
+}
+.footer-list li{
+    width: 50%;
+    float: left;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.site-footer p{
+    display: block;
+    text-align: left;
+    padding-left: 9%;
+    color:rgb(140, 140, 140);
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.site-footer p.contact-us-2{
+    font-size: 13px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.footer-list li a{
+    text-decoration: none;
+    font-size: 13px;    
+    color:rgb(140, 140, 140);
+}
+.cf{
+    content:"";
+    clear: both;
+}
+
+@media screen and (min-width: 768px) {
+    .top_section{
+        padding-bottom: 150px;
+    }
+    .logo{
+        width: 90%;
+    }
+    .logo img{
+        width: 150px;
+        height: 100px;
+    }
+    .logo a{
+        margin-top: 25px;
+    }
+    .note{
+        margin-top: 100px;
+    }
+    .note h1{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .note p{
+        font-size: 25px;
+    }
+    .note p.ready{
+        width: 75%;
+    
+    }
+    .mail input{
+        width:70%;
+        padding: 1.3em 0.5em;
+        margin-bottom: 15px;
+    }
+
+    .enjoy{
+        padding: 80px 0 40px 0;
+    }
+    .enjoy h2{
+        font-size: 40px;
+    }
+    .enjoy p {
+        font-size: 20px;
+        width: 90%;
+    }
+    .download h2{
+        font-size: 40px;
+    }
+    
+    .download p {
+        font-size: 20px;
+        
+    }
+    .everywhere{
+        padding: 70px 0 70px 0;
+    }
+    .everywhere  h2{
+        font-size: 40px;
+    }
+    .everywhere p {
+        font-size: 20px;
+        width: 90%;
+    }
+    .create{
+        padding: 80px 0 60px 0;
+    }
+    .create   h2{
+        font-size: 40px;
+    }
+    .create  p {
+        font-size: 20px;
+        width: 95%;
+    }
+    .faq  h2{
+        font-size: 40px;
+    }
+    .stack{
+        margin-bottom: 35px;
+    }
+    .net{
+        width: 80%;
+        margin: auto;
+    }
+    .content{
+        margin-bottom: 10px;
+    }
+    .is p{
+        font-size: 20px;
+    }
+    .net p.word, .net p.wrd{
+        font-size: 19px;
+        width: 90%;
+    }
+    .enter_email p{
+        font-size: 23px;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .site-footer p{
+        display: block;
+        text-align: left;
+        padding-left: 5%;
+    }
+    .footer-list li{
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 820px){
+    .note h1{
+        width: 80%;
+    }
+    .note p.ready{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .mail{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .mail input{
+        margin-right: 0;
+        padding: 1.7em 0.5em;
+    }
+    .mail button.btn{
+        padding: 1.1em;
+        margin-left: 0;
+        margin-top: 0;
+        width: 170px;
+        font-size: 19px;
+    }
+    .enjoy_container{
+        flex-direction: row;
+    }
+    .tv{
+        width: 50%;
+        padding-left: 2em;
+        padding-right: 1em;
+        padding-top: 8em;
+    }
+    .tv h2, .tv p{
+        text-align:left;
+        margin: 0;
+    }
+    .tv h2{
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    .tv p{
+        width: 100%;
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .download_container{
+        flex-direction: row-reverse;
+        padding-top:20px ;
+        padding-bottom: 20px;
+    }
+    .offline{
+        padding-top: 2em;
+    }
+    .offline h2, .offline p{
+        text-align: left;
+        margin: 0;
+    }
+    .offline h2{
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    .offline p{
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .television img{
+        width: 100%;
+    }
+    .everywhere{
+        padding-left: 10%;
+    }
+    .everywhere h2, .everywhere p{
+        text-align: left;
+    } 
+    .everywhere p{
+        margin-left: 0;
+        font-size: 26px;
+        width: 41%;
+        line-height: 35px;
+    }
+    .everywhere h2{
+        font-size: 48px;
+    }
+
+    .create-container{
+        flex-direction: row-reverse;
+    }
+    .kids{
+        width: 50%;
+    }
+    .kids img{
+        width: 100%;
+    }
+    .profile{
+        width: 50%;
+        padding-top: 4em;
+        padding-left: 1em;
+    }
+    .profile h2, .profile p{
+        text-align: left;
+    }
+    .profile h2{
+        font-size: 48px;
+    }
+    .profile p{
+        margin-left: 0;
+        font-size: 26px;
+        width: 85%;
+        line-height: 35px;
+    }
+    .quest h2{
+        font-size: 48px;
+        margin-bottom: 50px;
+    }
+    .net{
+        width: 70%;
+    }
+    .is{
+        padding: 1.3em 0.5em
+    }
+    .is p, .content p.word, .content p.wrd{
+        font-size: 26px;
+    }
+    .content{
+        padding: .3em;
+    }
+    .stack{
+        margin-bottom: 70px;
+    }
+    .enter_email p{
+        font-size: 22px;
+        width: 100%;
+    }
+    .mail input{
+        width: 60%;
+    }
+    .site-footer p{
+        padding-left: 3%;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .enjoy_container{
+        width: 90%;
+        margin: auto;
+    }
+    .offline {
+        padding-top: 7em;
+    }
+    .everywhere p{
+        width: 50%;
+    }
+    .profile {
+        width: 50%;
+        padding-top: 9em;
+    }
+    .mail input{
+        width: 45%;
+    }
+
+    .footer_wrapper {
+        width: 75%;
+    }
+}
